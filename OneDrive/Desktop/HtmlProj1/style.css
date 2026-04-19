@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    color: blue;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}   
+
+nav {
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+    background-color: #cafdff;
+}
+
+header {
+    background-color: #eadcff;
+    height: calc (100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 72px;
+}
+
+.subheader {
+    font-size: 36px;
+    margin: 16px 0 24px 0;
+}
+
+button {
+    background-color: #03ecf4;
+    color: white;
+    font-size: 24px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+a {
+    color: black;
+    font-size: 24;
+    font-weight: 700;
+}
+
+.logo {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+    padding-left: 10px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#about 
+#discord
+#contact 
+{
+    padding: 48px 0;
+    background-color: #f8ffdc;
+}
+
+/*
+
+About
+
+*/
+
+#about {
+    padding: 48px 0;
+    background-color: #f8ffdc ;
+}
+
+h2 {
+    font-size: 68px;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.section__description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 24px;
+}
+
+.about__img--wrapper {
+    width: 40%;
+    padding: 0 24px;
+}
+
+img {
+    width: 100%;
+}
+
+.about__img--wrapper,
+.section__description--wrapper {
+    width: 60%;
+    padding: 0 30px;
+}
+
+.section__description--para {
+    font-size: 20px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+/*
+
+Discord
+
+*/
+
+#discord {
+    background-color: #cefeff;
+}
+
+/*
+
+Contact
+
+*/
+#contact {
+    background-color: #dce9ff ;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    font-size: 20px;
+    margin-bottom: 24px;
+    padding: 6px  12px;
+}
+
+/*
+
+Footer
+
+*/
+footer {
+    background-color: #aaf5ff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.footer__logo {
+    max-width: 480px;
+    margin-bottom: 16px;
+}
+
+.footer__links {
+    margin-bottom: 32px;
+}
+
+.footer__link {
+    padding-bottom: 0 16px;
+}
