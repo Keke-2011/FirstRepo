@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
-    color: blue;
+    color: black;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -10,7 +10,7 @@
 header {
     background-color: #eadcff;
     height: calc (100vh-70px);
-    padding: 24px 0;
+    padding: 16px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -26,19 +26,19 @@ nav {
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 50px;
 }
 
 .subheader {
-    font-size: 36px;
-    margin: 16px 0 24px 0;
+    font-size: 24px;
+    margin: 16px 0, 24px 0;
 }
 
 button {
     background-color: #03ecf4;
     color: white;
-    font-size: 24px;
-    padding: 8px 16px;
+    font-size: 12px;
+    padding: 6px 12px;
     border: none;
     cursor: pointer;
 }
@@ -50,7 +50,7 @@ a {
 }
 
 .logo {
-    width: 300px;
+    width: 100px;
 }
 
 ul {
@@ -155,7 +155,7 @@ form {
 input, textarea {
     font-size: 20px;
     margin-bottom: 24px;
-    padding: 6px  12px;
+    padding: 10px  16px;
 }
 
 /*
@@ -166,11 +166,12 @@ Footer
 footer {
     background-color: #aaf5ff;
     display: flex;
+    padding: 32px 0;
     flex-direction: column;
     align-items: center;
 }
 .footer__logo {
-    max-width: 480px;
+    max-width: 100px;
     margin-bottom: 16px;
 }
 
