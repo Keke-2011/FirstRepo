@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 * {
     color: black;
-    padding: 0;
-    margin: 0;
+    padding: 0 ;
+    margin: 0 ;
     box-sizing: border-box;
     font-family: "Roboto", serif;
 }   
@@ -10,7 +10,7 @@
 header {
     background-color: #eadcff;
     height: calc (100vh-70px);
-    padding: 16px 0;
+    padding: 16px 6px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -50,7 +50,7 @@ a {
 }
 
 .logo {
-    width: 100px;
+    width: 80px;
 }
 
 ul {
@@ -171,7 +171,7 @@ footer {
     align-items: center;
 }
 .footer__logo {
-    max-width: 100px;
+    max-width: 60px;
     margin-bottom: 16px;
 }
 
