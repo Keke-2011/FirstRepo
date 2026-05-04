@@ -5,15 +5,6 @@
     margin: 0 ;
     box-sizing: border-box;
     font-family: "Roboto", serif;
-}   
-
-header {
-    background-color: #eadcff;
-    height: calc (100vh-70px);
-    padding: 16px 6px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 nav {
@@ -25,41 +16,50 @@ nav {
     background-color: #cafdff;
 }
 
+header {
+    background-color: #eadcff;
+    height: calc(100vh - 70px);
+    padding: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 h1 {
-    font-size: 50px;
+    font-size: 72px;
 }
 
 .subheader {
-    font-size: 24px;
-    margin: 16px 0, 24px 0;
+    font-size: 36px;
+    margin: 16px 0 24px 0;
 }
 
 button {
     background-color: #03ecf4;
     color: white;
     font-size: 12px;
-    padding: 6px 12px;
+    padding: 8px 16px;
     border: none;
     cursor: pointer;
 }
 
 a {
     color: black;
-    font-size: 24;
+    font-size: 24px;
     font-weight: 700;
 }
 
 .logo {
-    width: 80px;
+    width: 300px;
 }
 
 ul {
-    display: flex;
+    display:flex;
 }
 
 li {
-    list-style: none;
-    padding-left: 10px;
+    list-style-type: none;
+    padding-left: 16px;
 }
 
 .row {
@@ -74,9 +74,9 @@ li {
 #about 
 #discord
 #contact 
+footer
 {
     padding: 48px 0;
-    background-color: #f8ffdc;
 }
 
 /*
@@ -86,12 +86,13 @@ About
 */
 
 #about {
+    text-align: center;
     padding: 48px 0;
     background-color: #f8ffdc ;
 }
 
 h2 {
-    font-size: 68px;
+    font-size: 60px;
     text-align: center;
     margin-bottom: 24px;
 }
@@ -115,8 +116,7 @@ img {
 
 .about__img--wrapper,
 .section__description--wrapper {
-    width: 60%;
-    padding: 0 30px;
+    padding: 0 24px;
 }
 
 .section__description--para {
@@ -147,15 +147,24 @@ Contact
 form {
     display: flex;
     flex-direction: column;
-    width: 100px;
+    width: 100%;
     max-width: 600px;
-    margin: 0 auto;
+    margin: 0 auto; 
+}
+
+button {
+    background-color: #03ecf4;
+    color: white;
+    font-size: 12px;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
 }
 
 input, textarea {
     font-size: 20px;
     margin-bottom: 24px;
-    padding: 10px  16px;
+    padding: 6px  12px;
 }
 
 /*
@@ -171,7 +180,7 @@ footer {
     align-items: center;
 }
 .footer__logo {
-    max-width: 60px;
+    max-width: 50%;
     margin-bottom: 16px;
 }
 
@@ -180,5 +189,5 @@ footer {
 }
 
 .footer__link {
-    padding-bottom: 0 16px;
+    padding: 10px 16px;
 }
